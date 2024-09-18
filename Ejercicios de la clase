@@ -1,0 +1,66 @@
+// Objetos literales y optional chaiting operator
+
+const frutas = ["pera", "manzana", "sandia"];
+
+console.log(frutas[1])
+
+// Objetos literales, no indexados
+const animal = {
+  color: "naranja",
+  nombre: "simba",
+  rugiendo: true
+}
+
+console.log("Este león es de color " + animal.color)
+console.log("y su nombre es: " + animal.nombre)
+
+console.log(animal["rugiendo"])
+
+ //
+const tareas = {
+  "2359-91k83204u23rhrefiu" : {
+    title: "tarea #01"
+  }
+}
+
+console.log(tareas["2359-91k83204u23rhrefiu"].title)
+
+// Objetos literales, no indexados
+const animal = {
+  color: "naranja",
+  nombre: "simba",
+  ruguendo: true,
+  favoritos: {
+    dia: {
+      ok: true,
+    },
+    noche:{
+      ok: false
+    }
+  }
+}
+
+console.log(animal.favoritos.dia.ok)
+
+//guardar el valor de la propiedad color en una constante
+const color = animal.color
+const nombre = animal.nombre
+console.log("color: "+ color + ", animal: " + nombre)
+const animal = {
+  color: "azul",
+  nombre: "torogoz",
+  volando: true
+}
+
+//destructuring objetos literales...
+
+const {color, nombre, volando} = animal
+console.log("El "+ nombre + " es de color: " +color)
+
+//arrays indexados
+const frutas = ["pera", "manzana", "sandia"]
+
+//destructuring array
+const [pera, manzana, sandia] = frutas
+console.log("A mi me gusta mucho la " + manzana)
+

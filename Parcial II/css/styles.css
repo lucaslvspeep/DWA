@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #f8f9fa;
+}
+
+img.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    background-color: #fcfcfc;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
